@@ -1,0 +1,40 @@
+object MyMainForm: TMyMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Main'
+  ClientHeight = 284
+  ClientWidth = 594
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object LoginNavigationButton: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Login'
+    OnClick = LoginNavigationButtonClick
+  end
+  object RegistrationNavigationButton: TButton
+    Position.X = 320.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Register'
+    OnClick = RegistrationNavigationButtonClick
+  end
+  object intruction: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 449.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Already have an account, Login. If not, please register first.'
+    TabOrder = 3
+  end
+end
